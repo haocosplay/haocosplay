@@ -31,4 +31,7 @@
        $('#galleryImage').attr("src",$(e.relatedTarget).data("src"));
     });
 
+    $('#galleryModal2').on('show.bs.modal', function (e) {
+       $('#galleryImage2').attr("src",$(e.relatedTarget).data("src"));
+    });
 })(jQuery);
